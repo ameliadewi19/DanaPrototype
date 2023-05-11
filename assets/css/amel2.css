@@ -1,0 +1,254 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Inter;
+    font-size: 16px;
+}
+
+#wrapper {
+	margin: 0 auto;
+	width: 360px;
+	height: 800px;
+	background: #f5f5f5;
+}
+#header1 {
+	width: inherit;
+	height: 50px;
+	background: #246bfd;
+}
+
+#header2 {
+	width: inherit;
+	height: 210px;
+	background: #246bfd;
+	text-align: center;
+	position: absolute;
+}
+
+#container {
+	padding: 10px;
+}
+
+.informasi {
+	height: 40px;
+	width: 360px;
+}
+
+.search {
+	margin-left: 20px;
+	margin-right: 20px;
+	border-radius: 10px;
+	height: 35px;
+	/*background: white;*/
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-icons i {
+    position: absolute;
+}
+          
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+          
+.icon {
+    padding: 10px;
+    padding-left: 15px;
+    color: grey;
+    min-width: 50px;
+    text-align: left;
+    font-size: 10pt;
+}
+          
+.input-field {
+    width: 100%;
+    padding: 5px;
+    height: 35px;
+    text-align: left;
+    padding-left: 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 10pt;
+}
+
+.menu {
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-top: 20px;
+}
+
+.logo {
+	width: 25px;
+}
+
+.logo-text {
+	padding-top: 5px;
+	font-size: 10pt;
+	color: white;
+}
+
+.main {
+	position: absolute;
+	padding: 13px;
+	width: 340px;
+	margin-top: 150px;
+	background: white;
+	border-radius: 10px;
+}
+
+.main p img {
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 190px;
+}
+
+.main p button {
+	font-size: 8pt;
+	margin-left: 55px;
+}
+
+.menu2 {
+	padding-left: 5px;
+}
+
+.logo2 {
+	width: 30px;
+	margin-left: 13px;
+	margin-bottom: 10px;
+}
+
+.logo2-text {
+	font-size: 8pt;
+	color: black;
+	text-align: center;
+}
+
+.feed {
+	/*position: absolute;*/
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 340px;
+	height: 130px;
+	margin-top: 432px;
+	background: white;
+	border-radius: 10px;
+}
+
+.menu-name {
+	font-size: 12pt;
+	color: black;
+}
+
+.submenu-name {
+	font-size: 8pt;
+	color: grey;
+}
+
+.menufeed img {
+	width: 40px;
+	margin-right: 5px;
+}
+
+.iklan {
+	position: absolute;
+	width: 360px;
+	height: 100px;
+	/*background: white;*/
+	margin-top: 10px;
+	border-radius: 10px;
+	margin-left: -30px;
+}
+
+.iklan1 {
+	position: absolute;
+	width: 240px;
+	height: 110px;
+	background: #1c003f;
+	margin-left: 10px;
+	border-radius: 10px;
+	padding: 50px;
+	padding-top: 60px;
+}
+
+.iklan1 p {
+	color: white;
+	text-align: center;
+	font-size: 13pt;
+}
+
+.iklan2 {
+	position: absolute;
+	width: 10px;
+	height: 110px;
+	background: #00bee3;
+	margin-left: -60px;
+	border-top-left-radius: 10px;
+	padding: 50px;
+}
+
+.navigation {
+	position: absolute;
+	margin-top: 110px;
+	width: 360px;
+	height: 55px;
+	background-color: white;
+	padding: 10px;
+	padding-top: 10px;
+	padding-left: 35px;
+}
+
+.navicon {
+	width: 35px;
+	/*margin-left: 10px;*/
+	margin-right: px;
+}
+
+.navicon2 {
+	width: 35px;
+	margin: 15px;
+	margin-left: 20px;
+}
+
+.pay {
+	width: 75px;
+	height: 75px;
+	background: #3fa0e3;
+	border-radius: 100px;
+	margin-top: -25px;
+}
+
+.navtext {
+	font-size: 9pt;
+	text-align: center;
+}
+
+.navtext2 {
+	font-size: 9pt;
+	text-align: center;
+	color: white;
+	margin-top: -15px;
+}
+
+.ml-m10 {
+	margin-left: -10px;
+}
+
+.ml-m15 {
+	margin-left: -15px;
+}
+
+.ml-t10 {
+	margin-left: 10px;
+}
+
+.ml-t15 {
+	margin-left: 15px;
+}
+
+.ml-t20 {
+	margin-left: 20px;
+}

@@ -1,0 +1,281 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Inter;
+    font-size: 16px;
+}
+
+#wrapper {
+	margin: 0 auto;
+	width: 360px;
+	height: 800px;
+	background: #f5f5f5;
+}
+#header1 {
+	width: inherit;
+	height: 50px;
+	background: #246bfd;
+}
+
+#header2 {
+	position: absolute;
+	width: inherit;
+	height: 75px;
+	background: #246bfd;
+	text-align: center;
+}
+
+#container {
+	padding: 10px;
+}
+
+.main {
+	position: absolute;
+	padding: 13px;
+	padding-bottom: 0px;
+	width: 340px;
+	margin-top: 40px;
+	background: white;
+	border-radius: 10px;
+}
+
+.main p {
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-right: 10px;
+	width: 190px;
+}
+
+.main p button {
+	font-size: 8pt;
+	margin-left: 55px;
+}
+
+.menutitle {
+	font-size: 12pt;
+	color: black;
+}
+
+.search {
+	margin-left: -10px;
+	width: 335px;
+	border-radius: 10px;
+	height: 35px;
+	/*background: white;*/
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.catatan {
+	border: 1px solid rgba(211,211,211,0.5);;
+	width: 315px;
+	padding: 5px;
+	border-radius: 10px;
+	height: 43px;
+	/*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), 0 0 10px rgba(0, 0, 0, 0.1);*/
+	margin-bottom: 15px;
+}
+
+.catatan p {
+	font-size: 9pt;
+	margin-top: -3px;
+	color: grey;
+}
+
+.input-icons i {
+    position: absolute;
+}
+          
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+          
+.icon {
+    padding: 10px;
+    padding-left: 15px;
+    color: grey;
+    min-width: 50px;
+    text-align: left;
+    font-size: 10pt;
+}
+          
+.input-field {
+    width: 100%;
+    padding: 5px;
+    height: 30px;
+    text-align: left;
+    padding-left: 40px;
+    border: none;
+    background: none;
+    border-radius: 10px;
+    font-size: 10pt;
+}
+
+.menu {
+	padding-left: 15px;
+	margin-top: 20px;
+}
+
+.logo {
+	width: 40px;
+}
+
+.logo-text {
+	margin-top: -8px;
+	font-size: 8pt;
+	color: black;
+	text-align: center;
+	margin-left: -70px;
+}
+
+.opsi {
+	width: 340px;
+	margin-left: -13px;
+}
+
+.opsitext{
+	font-size: 7pt;
+	color: blue;
+	text-align: center;
+	margin-left: 70px;
+}
+
+.logo2 {
+	width: 60px;
+}
+
+.logo-text {
+	margin-top: -8px;
+	font-size: 8pt;
+	color: black;
+	text-align: center;
+	margin-left: -65px;
+}
+
+.kontak {
+	font-size: 9pt;
+	margin-left: -25px;
+}
+
+.kirim {
+	width: 315px;
+}
+
+.kirim p {
+	font-size: 8pt;
+	color: grey;
+	margin-bottom: 0px;
+	width: 315px;
+	margin-bottom: 10px;
+}
+
+.kirim img {
+	width: 315px;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+
+.aksifoot {
+	margin-left: -12px;
+	position: absolute;
+	width: 360px;
+	height: 80px;
+	background: white;
+	margin-top: 670px;
+}
+
+.aksifoot button {
+	width: 90%;
+	margin-top: 20px;
+	margin-left: 15px;
+}
+
+.backdrop {
+	position: absolute; 
+	background: rgba(0, 0, 0, 0.5); 
+	width: inherit; 
+	height: 820px; 
+	margin-top: -70px;
+}
+
+.pay {
+	position: absolute;
+	background: #FAFAFA;
+	width: inherit;
+	height: 590px;
+	margin-top: 160px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+.payheader {
+	width: inherit;
+	padding: 10px;
+}
+
+.pay-verifikasi {
+	width: inherit;
+	background: #118EEA;
+	padding: 10px;
+    height: 45px;
+}
+
+.paytext {
+	color: white;
+	margin-left: -20px;
+}
+
+.paytotal {
+	background: white;
+	width: inherit;
+	padding: 10px 10px 10px 20px;
+}
+
+.paynote {
+	padding: 40px;
+}
+
+.notetext {
+	font-size: 10pt;
+	color: red;
+}
+
+.paysaldo {
+	background: white;
+	width: inherit;
+}
+
+.saldo {
+	margin-top: 20px;
+	padding: 20px;
+}
+
+.verifikasi-action{
+    margin-top: 100px;
+	margin-left: 0px;
+	/*position: absolute;*/
+	width: 360px;
+	height: 80px;
+	/*background: white;*/
+	/*margin-top: 670px;*/
+}
+
+.verifikasi-action a {
+	width: 90%;
+	margin-top: -20px;
+	margin-left: 15px;
+}
+
+.input-pin {
+    padding: 20px;
+    text-align: center;
+    height: 300px; 
+}
+
+.input-pin img {
+    margin-left: 70px;
+}
+
+.input-pin p {
+    color: #118EEA;
+}

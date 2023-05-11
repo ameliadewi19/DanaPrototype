@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="english">
+	<head>
+    	<title>Edit Limit Transaksi</title>
+    	<link
+	      rel="stylesheet"
+	      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+	      data-tag="font"	/>
+	    <link
+	      rel="stylesheet"
+	      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+	      data-tag="font"/>
+	    <link
+	      rel="stylesheet"
+	      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+	      data-tag="font"/>
+	    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+	   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    	<link rel="stylesheet" href="assets/css/amel1.css" >
+    </head>
+    <body>
+    	<div id="wrapper">
+    		<div id="header1">
+    			<img src="assets/images/Status Bar.png">
+    			<p></p>
+    		</div>
+    		<div id="header2">
+    			<div class="row">
+    				<div class="col-1">
+    					<a href="amel3.html"><i class="fa-solid fa-arrow-left" style="margin-left: 10px; color: white;"></i></a>
+    				</div>
+    				<div class="col-11">
+    					<p style="color: white; margin-left: -10px;"> Limit</p>
+    				</div>
+    			</div>
+    		
+    		</div>
+    		<div id="container">
+    			<b><p style="font-size: 12pt; padding-left: 20px; padding-top: 20px;">Edit Limit</p></b>
+    			<div class="row">
+    				<div class="limit">
+    					<b><p style="color: grey; font-size: 10pt;">Limit Harian</p></b>
+    					<p style="color: grey; font-size: 8pt; margin-top: -5px;">Rp<input type="text" id="textInput" value="500000" style="border: none; width: auto; color: grey;"></p>
+    					<form class="multi-range-field my-15 pb-10 " style="margin-top: -15px">
+						  <input id="multi" class="multi-range" type="range" min="0" max="1000000" step="1000" style="width: 280px;" onchange="updateTextInput(this.value);"/>
+						</form>
+    					<div class="row info" style="margin-top: -5px">
+							<div class="col-9">
+								<p style="color: grey; font-size: 7pt">0</p>
+							</div>
+							<div class="col-3">
+								<p style="color: grey; font-size: 7pt; margin-left: 10px">1.000.000</p>
+							</div>
+						</div>
+    				</div>
+    				<div class="limit">
+    					<b><p style="color: grey; font-size: 10pt;">Limit Mingguan</p></b>
+    					<p style="color: grey; font-size: 8pt; margin-top: -5px;">Rp<input type="text" id="textInput2" value="2500000" style="border: none; width: auto; color: grey;"></p>
+    					<form class="multi-range-field my-15 pb-10 " style="margin-top: -15px">
+						  <input id="multi" class="multi-range" type="range" min="0" max="5000000" step="1000" style="width: 280px;" onchange="updateTextInput2(this.value);"/>
+						</form>
+    					<div class="row info" style="margin-top: -5px">
+							<div class="col-9">
+								<p style="color: grey; font-size: 7pt">0</p>
+							</div>
+							<div class="col-3">
+								<p style="color: grey; font-size: 7pt; margin-left: 10px">5.000.000</p>
+							</div>
+						</div>
+    				</div>
+    				<div class="limit">
+    					<b><p style="color: grey; font-size: 10pt;">Limit Bulanan</p></b>
+    					<p style="color: grey; font-size: 8pt; margin-top: -5px;">Rp<input type="text" id="textInput3" value="15000000" style="border: none; width: auto; color: grey;"></p>
+    					<form class="multi-range-field my-15 pb-10 " style="margin-top: -15px">
+						  <input id="multi" class="multi-range" type="range" min="0" max="30000000" step="1000" style="width: 280px;" onchange="updateTextInput3(this.value);"/>
+						</form>
+    					<div class="row info" style="margin-top: -5px">
+							<div class="col-9">
+								<p style="color: grey; font-size: 7pt">0</p>
+							</div>
+							<div class="col-3">
+								<p style="color: grey; font-size: 7pt; margin-left: 0px">30.000.000</p>
+							</div>
+						</div>
+    				</div>
+    				<div class="button text-center">
+    					<button type="button" class="btn btn-outline-danger btn-sm" style="width: 90px; border-color: grey; border-radius: 50px; font-size: 10pt; margin-right: 10px;" data-bs-toggle="modal" data-bs-target="#exampleModal">Batal</button>
+    					<a href="amel1.html"><button type="button" class="btn btn-outline-success btn-sm" style="width: 90px; border-color: grey; border-radius: 50px; font-size: 10pt;">Simpan</button></a>
+    				</div>
+						<!-- Modal -->
+						<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						  <div class="modal-dialog modal-dialog-centered" style="width: 250px">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+						        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="color: red"></button>
+						      </div>
+						      <div class="modal-body">
+						        <p style="font-size: 10pt" class="text-center">Yakin ingin menghapus perubahan?</p>
+						        <a href="amel1.html"><button type="button" class="btn btn-outline-success btn-sm" style="width: 100px; border-radius: 20px; margin-left: 55px;">Iya</button></a>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+    			</div>
+    		</div>
+    		<!-- <div id="Footer">
+    			<p>Footer</p>
+    		</div> -->
+    	</div>
+    </body>
+    <script>
+    	var myModal = document.getElementById('exampleModal')
+			var myInput = document.getElementById('myInput')
+
+			myModal.addEventListener('shown.bs.modal', function () {
+			  myInput.focus()
+			})
+    </script>
+    <script type="text/javascript">
+    	function updateTextInput(val) {
+          document.getElementById('textInput').value=val; 
+        }
+        function updateTextInput2(val) {
+          document.getElementById('textInput2').value=val; 
+        }
+        function updateTextInput3(val) {
+          document.getElementById('textInput3').value=val; 
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>
